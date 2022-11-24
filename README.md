@@ -24,7 +24,12 @@ in a new named file. If time is short, just make a handoff first, and then if
 something is missing or wrong or not compatible with old releases, improve it
 into a wrapper.
 
-Usage:
+## Installation
+```
+pip3 install array-adhoc
+```
+
+## Usage
 ```
 import array_adhoc.torch as xp
 
