@@ -12,7 +12,17 @@ and I do the implementations barebones.
 
 This could easily improve with some good pull requests.
 
-Presently only includes a pytorch wrapper.
+Wrappers Included:
+    - torch
+
+Handoffs Included:
+    - cupy
+    - numpy
+
+It is easy to add a new wrapper or handoff, you just import the api functions
+in a new named file. If time is short, just make a handoff first, and then if
+something is missing or wrong or not compatible with old releases, improve it
+into a wrapper.
 
 Usage:
 ```
